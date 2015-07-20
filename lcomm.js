@@ -11,6 +11,7 @@ function _click(){
 	eval(func+'(o)');
 }
 
+
 /**
  * func ajax请求
  */
