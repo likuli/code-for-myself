@@ -1,2 +1,2 @@
 # code-for-myself
-我<李苦李@www.likuli.com>个人的代码库
+这是<李苦李>的个人代码库
