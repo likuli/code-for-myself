@@ -21,3 +21,13 @@ function serializeJson(form){
     });
     return serializeObj;
 }
+
+//radio、checkbox设值 例：将name='age',value=20设置为checked
+$("input[name='age'").eq('20').attr("checked","checked");
+
+
+
+
+
+
+
