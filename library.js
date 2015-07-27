@@ -4,6 +4,18 @@ function num2letter(n){
 }
 
 
+
+/**
+ * @desc 只能输入数字
+ * @usage $(document).on('keyup','input.count',onlyNum);
+ */
+function onlyNum(){
+	var reg = /^[0-9]*$/g;
+	if(!(reg.test($(this).val()))){
+		$(this).val('');
+	}
+}
+
 //将表单序列化为JSON
 function serializeJson(form){
     var serializeObj={};
