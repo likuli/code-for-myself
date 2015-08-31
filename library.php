@@ -49,6 +49,9 @@ function array_walk_merge(&$v,$k,$c){
 	$v = array_merge($v,$c);
 }
 
+//对一维数组的每一个元素都trim操作
+$arr = array_map(create_function('$v','return trim($v);'),$arr);
+
 
 /**
  * 获取客户端IP地址
