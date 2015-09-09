@@ -66,10 +66,10 @@ function do_send_mail( $data ){
 	$mail->Host     = "127.0.0.1";
 	$mail->SMTPAuth = true;
 	$mail->CharSet  = "UTF-8";
-	$mail->Username = "root";
-	$mail->Password = "360buy.com";
-	$mail->From     = "ops@jd.com";
-	$mail->FromName = "运维管理平台";
+	$mail->Username = "";
+	$mail->Password = "";
+	$mail->From     = "";
+	$mail->FromName = "管理平台";
 
 	foreach($data['to'] as $key => $value){
 		$mail->AddAddress($value,$value);
