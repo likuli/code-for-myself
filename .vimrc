@@ -8,8 +8,9 @@ filetype off                  " required!
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Plugin 'scrooloose/nerdtree'
-Plugin 'Shougo/unite.vim'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/nerdtree'
+Bundle 'Shougo/unite.vim'
 
 filetype plugin indent on     " required!
 
