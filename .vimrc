@@ -1,4 +1,4 @@
-" @ author: 李苦李
+" @ author: 李苦李(www.likuli.com)
 " @ date: 2015-10-15
 
 " --------------- Vundle Begin ---------------
@@ -36,8 +36,6 @@ set nobackup
 set noswapfile
 set backspace=indent,eol,start
 set nowb
-set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
-set termencoding=utf-8
 set encoding=utf-8
 
 let g:debuggerPort=9001
