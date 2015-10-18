@@ -87,3 +87,34 @@ function get_client_ip($type = 0,$adv=false) {
 function in_array_case($value,$array){
 	return in_array(strtolower($value),array_map('strtolower',$array));
 }
+
+
+//字符串加密算法 与decrypt配合使用
+public static function encrypt($string, $key)
+{
+    if(function_exists('get_loaded_extensions'))
+    {
+        if( in_array('mcrypt', get_loaded_extensions()) )
+        {
+            $string = base64_encode( mcrypt_encrypt( MCRYPT_RIJNDAEL_256, md5($key), $string, MCRYPT_MODE_CBC, md5($key) ) );
+            return $string;
+        }
+    }
+
+    return('---');
+}
+
+//字符串解密算法 与encrypt配合使用
+ public static function decrypt($string, $key)
+ {
+    if(function_exists('get_loaded_extensions'))
+    {
+        if( in_array('mcrypt', get_loaded_extensions()) )
+        {
+            $string = rtrim( mcrypt_decrypt( MCRYPT_RIJNDAEL_256, md5($key), base64_decode($string), MCRYPT_MODE_CBC, md5($key) ), "\0" );
+            return $string;
+        }
+    }
+
+    return('---');
+}
