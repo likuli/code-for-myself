@@ -12,6 +12,7 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 
+Bundle 'Tagbar'
 Bundle 'checksyntax-B'
 Bundle 'Emmet.vim'
 Bundle 'scrooloose/nerdcommenter'
@@ -82,6 +83,12 @@ map <leader>b :<C-u>Unite buffer<CR>
 
 nmap wm :WMToggle<cr>
 nmap tt :NERDTreeToggle<cr>
+
+if(has('mac'))
+    map <Leader>tg :!/usr/local/bin/ctags -R<CR> :UpdateTypesFile<CR> :!cscope -Rbq<CR>
+else
+    map <Leader>tg :!ctags -R<CR>
+endif
 
 " --------------- Map End ---------------
 
