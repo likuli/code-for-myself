@@ -12,7 +12,8 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 
-Bundle 'PHPSyntaxCheck'
+"Bundle 'PHPSyntaxCheck'
+Bundle 'Emmet.vim'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Shougo/unite.vim'
