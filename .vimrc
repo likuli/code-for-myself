@@ -59,8 +59,6 @@ let g:winManagerWindowLayout='FileExplorer|TagList'
 let NERDChristmasTree=1
 let mapleader = "\<space>"
 
-"source ~/.vim/statusline.vim
-
 " --------------- Vim Setting End ---------------
 
 
