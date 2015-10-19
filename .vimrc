@@ -70,7 +70,7 @@ map vp :vsp
 map sp :sp
 map q :q!<CR>
 map w :w<CR>
-map te :tabe
+map te :tabe<space>
 map tc :tabc<CR>
 map tn :tabn<CR>
 map tp :tabp<CR>
