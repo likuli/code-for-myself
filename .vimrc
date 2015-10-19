@@ -12,13 +12,14 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 
+Bundle 'statusline.vim'
 Bundle 'ack.vim'
 Bundle 'Tagbar'
 Bundle 'checksyntax-B'
 Bundle 'Emmet.vim'
+Bundle 'unite.vim'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
-Bundle 'Shougo/unite.vim'
 
 filetype plugin indent on     " required!
 
@@ -58,8 +59,7 @@ let g:winManagerWindowLayout='FileExplorer|TagList'
 let NERDChristmasTree=1
 let mapleader = "\<space>"
 
-source ~/.vim/statusline.vim
-source ~/.vim/colors/wuye.vim
+"source ~/.vim/statusline.vim
 
 " --------------- Vim Setting End ---------------
 
