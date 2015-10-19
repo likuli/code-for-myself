@@ -12,6 +12,7 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 
+Bundle 'ack.vim'
 Bundle 'Tagbar'
 Bundle 'checksyntax-B'
 Bundle 'Emmet.vim'
