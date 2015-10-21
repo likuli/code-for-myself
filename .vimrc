@@ -28,14 +28,14 @@ filetype plugin indent on     " required!
 
 
 " --------------- Vim Setting Begin ---------------
-syntax on
-"set cursorline
-set showcmd "输入的命令显示出来，看的清楚些
 "set ruler
+"set cursorline
+"set showtabline=2
+syntax on
+set showcmd "输入的命令显示出来，看的清楚些
 set shiftwidth=4
 set cmdheight=1
 set tabstop=4
-set showtabline=2
 set nu
 set is
 set wildmenu   "显示补全列表
