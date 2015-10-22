@@ -83,6 +83,9 @@ map tb :TagbarToggle<cr>
 nmap wm :WMToggle<cr>
 nmap tt :NERDTreeToggle<cr>
 
+map <C-H><C-H> eb :Ack "<C-R><C-W>"<CR>
+let g:ackprg = 'ag --nogroup --nocolor --column'
+
 if(has('mac'))
     map <Leader>tg :!/usr/local/bin/ctags -R<CR> :UpdateTypesFile<CR> :!cscope -Rbq<CR>
 else
