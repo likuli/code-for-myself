@@ -17,6 +17,7 @@ Bundle 'ack.vim'
 Bundle 'Tagbar'
 Bundle 'Emmet.vim'
 Bundle 'unite.vim'
+Bundle 'scrooloose/syntastic'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/nerdtree'
 
@@ -86,7 +87,7 @@ set statusline=%!statusString
 map vp :vsp
 map sp :sp
 map q :q!<CR>
-map w :w<CR>
+map <leader>w :w<CR>
 map te :tabe<space>
 map tc :tabc<CR>
 map tn :tabn<CR>
