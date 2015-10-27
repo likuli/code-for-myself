@@ -87,13 +87,14 @@ set statusline=%!statusString
 map vp :vsp
 map sp :sp
 map q :q!<CR>
-map <leader>w :w<CR>
+map w :w<CR>
 map te :tabe<space>
 map tc :tabc<CR>
 map tn :tabn<CR>
 map tp :tabp<CR>
 map bp :Bp<CR>
 map ml :NERDTree<CR>
+map mg :NERDTreeClose<CR>
 map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
