@@ -1,8 +1,8 @@
-(1)float:left;属性导致脱离父容器的解决方法
-<div class="list_img">
-<ul>
-<li><a href="#"><img src="images/f01.jpg" /></a><p><a href="#">商品的名称是什么</a></p></li>
-<li><a href="#"><img src="images/f01.jpg" /></a><p><a href="#">商品的名称是什么</a></p></li>
-</ul>
+(1)<li>标签 float:left 属性导致脱离父容器的解决方法
+<div>
+  <ul>
+    <li><a href="#">aaaaaaa</a></li>
+    <li><a href="#">bbbbbbb</a></li>
+  </ul>
 <br style="clear:both" />或者<div style="clear:both"></div>
 </div>
