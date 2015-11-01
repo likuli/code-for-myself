@@ -101,6 +101,7 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 map <leader>b :<C-u>Unite buffer<CR>
 map tb :TagbarToggle<cr>
+set pastetoggle=<leader>ps
 
 nmap wm :WMToggle<cr>
 nmap tt :NERDTreeToggle<cr>
