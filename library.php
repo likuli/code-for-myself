@@ -1,5 +1,8 @@
 <?php
 
+//驼峰转数组
+$arr = preg_split("/(?=[A-Z])/",$str);
+
 //array_column 等同于php5.5以后的array_column
   function array_column($input, $columnKey, $indexKey = NULL)
   {
