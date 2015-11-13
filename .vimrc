@@ -47,6 +47,7 @@ set noswapfile
 set backspace=indent,eol,start
 set nowb
 set encoding=utf-8
+set autoindent
 
 let g:debuggerPort=9001
 let g:miniBufExplTabWrap = 1
