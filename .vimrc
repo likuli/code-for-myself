@@ -57,7 +57,7 @@ let Tlist_Show_One_File = 1            "不同时显示多个文件的tag，只�
 let Tlist_Exit_OnlyWindow = 1          "如果taglist窗口是最后一个窗口，则退出vim
 let Tlist_Use_Right_Window = 1         "在右侧窗口中显示taglist窗口
 let g:winManagerWindowLayout='FileExplorer|TagList'
-let NERDChristmasTree=1
+let NERDChristmasTree=1     "目录箭头 1、显示箭头  0、传统+-号
 let mapleader = "\<space>"
 
 set laststatus=2 
