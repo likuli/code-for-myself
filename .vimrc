@@ -104,6 +104,18 @@ map <leader>b :<C-u>Unite buffer<CR>
 map tb :TagbarToggle<cr>
 set pastetoggle=<leader>ps
 
+" --- 粘贴板 ---
+map <leader>ay "ay
+map <leader>sy "sy
+map <leader>dy "dy
+map <leader>fy "fy
+map <leader>gy "gy
+map <leader>ap "ap
+map <leader>sp "sp
+map <leader>dp "dp
+map <leader>fp "fp
+map <leader>gp "gp
+
 nmap wm :WMToggle<cr>
 nmap tt :NERDTreeToggle<cr>
 
