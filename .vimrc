@@ -80,6 +80,7 @@ let statusTime	="%{strftime(\"%y-%m-%d\",getftime(expand(\"%\")))}"
 let statusEnd=statusKeymap."\ ".statusEncoding.statusRuler."\ ".statusTime 
 "" 最终状态栏的模式字符串 
 let statusString=statusHead.statusBody.statusBlank.statusEnd 
+let html_no_rendering=1 " a标签下划线
 set statusline=%!statusString 
 
 " --------------- Vim Setting End ---------------
